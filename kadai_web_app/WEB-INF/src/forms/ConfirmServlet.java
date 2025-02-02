@@ -29,7 +29,7 @@ public class ConfirmServlet extends HttpServlet {
     request.setAttribute("name", name);
     request.setAttribute("email", email);
     request.setAttribute("address", address);
-    request.setAttribute("phone", phone);
+    request.setAttribute("phone_number", phone);
     request.setAttribute("message", message);
 
     // データが存在しない場合は空文字に置き換え
